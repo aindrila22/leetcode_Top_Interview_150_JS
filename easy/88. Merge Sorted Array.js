@@ -69,4 +69,17 @@ var merge = function(nums1, m, nums2, n) {
 
 };
 
-/** Solved by Aindrila Bhattacharjee */
+/** 
+ 
+ * Time Complexity:
+The time complexity of this algorithm is O(m + n), where:
+
+m is the number of non-zero elements in nums1.
+n is the number of elements in nums2.
+This is because the algorithm iterates through both arrays (nums1 and nums2) at most once, merging them in-place.
+
+* Space Complexity:
+The space complexity of this algorithm is O(1), as the merging is done in-place within nums1 without requiring any extra memory allocation.
+
+
+ * Solved by Aindrila Bhattacharjee */
